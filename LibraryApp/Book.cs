@@ -1,4 +1,6 @@
-﻿internal class Book
+﻿namespace LibraryApp;
+
+public class Book
 {
     public string Title { get; set; }
 
