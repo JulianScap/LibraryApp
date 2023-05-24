@@ -17,7 +17,6 @@ Console.WriteLine(library);
 Console.WriteLine(user);
 
 library.BorrowBook(user, harryPotter);
-library.BorrowBook(user, new Book("A bad book"));
 library.BorrowBook(user, "A good book");
 
 Console.WriteLine("After borrow");
